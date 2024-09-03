@@ -16,3 +16,5 @@ export LD_LIBRARY_PATH=$DPCPP_HOME/llvm/build/install/lib:$LD_LIBRARY_PATH
 
 ## This is the one that makes autoware work finding sycl library:
 export LIBRARY_PATH=$DPCPP_HOME/llvm/build/install/lib:$LIBRARY_PATH
+
+

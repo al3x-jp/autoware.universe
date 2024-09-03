@@ -19,6 +19,7 @@ add_library(${PROJECT_NAME} SHARED
 
 target_link_libraries(${PROJECT_NAME}
   libsycl.so ## Make sure this is set: export LIBRARY_PATH=$DPCPP_HOME/llvm/build/install/lib:$LIBRARY_PATH
+  libonemkl.so ## Make sure this is set: export LIBRARY_PATH=$ONEMKL_HOME/build/lib:$LIBRARY_PATH
 )
 
 target_include_directories(${PROJECT_NAME}

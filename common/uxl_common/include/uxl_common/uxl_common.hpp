@@ -24,7 +24,9 @@ namespace uxl_common
 {
 
 int UxlCommonTestFunction();
+int UxlCommonOneMKLTest();
 
 }  // namespace uxl_common
 
 #endif  // UXL_COMMON__UXL_COMMON_HPP_
+
