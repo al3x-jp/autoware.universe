@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>uxl_common</name>
+  <version>0.0.1</version>
+  <description>uxl utility wrapper</description>
+
+  <author email="alex.pim@imgtec.com">Imagination</author>
+  <maintainer email="alex.pim@imgtec.com">Imagination</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
